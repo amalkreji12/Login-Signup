@@ -28,9 +28,17 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
+
+        <a href="/logout" onclick="return confirm()" class="btn btn-danger" >Logout</a>
         
-        <button class="btn btn-danger" type="submit">Logout</button>
+        
       </form>
     </div>
   </div>
 </nav>
+
+<script>
+  function confirm(){
+    alert('Logout')
+  }
+</script>
